@@ -1,0 +1,2 @@
+export const SANITY_WRITE_TOKEN = "skg9Kqx3bfn0n0yyfsBmyaAMtuXfiziYWCV86AogAf6Fti9feNSC9xVBcv7AAZODuoxghbTFBcrgoeXhf4OTht6mnGTAG0NOJvMjI8K4XPMw0LR1oVnHPMNzV8STjxjTVdcSj9ZxFhRQu4WHqDpO0v7IdYRR0JH4l7QTudRfSfIKIZkTtkc0"
+export const PROJECT_ID = "ugclfvqj"

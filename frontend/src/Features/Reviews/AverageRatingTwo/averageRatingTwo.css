@@ -1,0 +1,34 @@
+/* Wrapper för rad med klickbara betygsstjärnor */
+.average-stars-wrapper {
+  position: relative;
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+/* Icke ifyllda stjärnor */
+.star-background {
+  color: #ccc;
+}
+/* Ifyllda stjärnor */
+.star-foreground {
+  color: #ffd700;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  pointer-events: none;
+}
+/* Container för stjärnor + numerärt betyg */
+.average-stars-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+/* Numerärt betyg */
+.average-rating-number {
+  font-size: 1rem;
+  font-family: Inter;
+  font-weight: bold;
+  color: #333;
+}

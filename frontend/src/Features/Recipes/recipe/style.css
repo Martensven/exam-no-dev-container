@@ -1,0 +1,173 @@
+.recipeMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: inter;
+    margin: 10px;
+}
+
+.recipeMain img {
+    width: 90%;
+    border-radius: 5px;
+}
+
+.recipeMain ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.goback-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.goback-button {
+    cursor: pointer;
+    border: 2px solid rgba(102, 217, 211, 1);
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 2px 0.5px 6px rgb(30, 72, 100);
+    margin: 10px;
+    padding: 5px;
+}
+
+.recipeMain #FrukostBtn {
+      cursor: pointer;
+    border: 2px solid rgba(102, 217, 211, 1);
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 2px 0.5px 6px rgb(30, 72, 100);
+}
+
+.recipeDesc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 90%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    min-height: 50px;
+    box-shadow:1px 1px 3px -1px rgb(30, 72, 100);
+}
+
+.ingredientContainer,
+.instructionsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 99%;
+}
+
+.ingredients,
+.instructions {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.ingredient,
+.instruction {
+    text-align: left;
+    display: flex;
+    text-align: left;
+    padding: 5px;
+    width: 100%;
+    margin: 5px;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px -1px rgb(30, 72, 100);
+}
+
+.detailsContainer {
+    background-color:hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 90%;
+    height: 50px;
+    box-shadow: 1px 1px 3px -1px rgb(30, 72, 100);
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.details p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.detailsReview {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.categories {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.categories button {
+    border: none;
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 1px 1px 3px -1px black;
+}
+
+.categories button:hover {
+    background-color: hsl(0, 0%, 75%);
+}
+
+.categories button:active {
+    background-color: hsl(0, 0%, 65%);
+}
+
+.categories li {
+    margin: 2.5px;
+    padding: 2.5px;
+ 
+}
+
+.listContainer {
+    display: flex;
+    flex-flow: wrap;
+    width: 90%;
+    justify-content: space-around;
+    border-radius: 5px;
+    
+}
+
+.editLink {
+    width: 92.5%;
+}
+
+.editBtn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: solid black 1px;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    box-shadow: 1px 1px 3px -1px black;
+    margin: 0;
+    margin-bottom: 30px;
+    background-color: rgb(169, 181, 235);
+}
